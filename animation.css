@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Unica+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Chewy&family=Unica+One&display=swap");
 
 .container {
   padding: 10vh 0;
@@ -8,6 +8,7 @@
 }
 
 .dwarf {
+  margin: 10vh;
   height: 50vh;
   width: auto;
 }
@@ -18,9 +19,9 @@
 }
 
 @media (max-width: 768px) {
-    .portrait {
-        width: 100vw;
-    }
+  .portrait {
+    width: 100vw;
+  }
 }
 
 body {
@@ -43,8 +44,11 @@ body {
 
 button {
   margin: 25px 0;
-  padding: 10px 20px;
-  font-family: 'Chewy', system-ui;
+  padding: 10px 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Chewy", system-ui;
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
@@ -52,4 +56,16 @@ button {
   background-color: #6da7ce;
   border-radius: 25px;
   border: none;
+}
+
+button:hover {
+  background-color: rgb(76, 112, 158);
+  transition: background-color 0.2s ease;
+}
+
+@media (max-width: 768px) {
+  button {
+    width: 25vw;
+    height:auto;
+  }
 }
