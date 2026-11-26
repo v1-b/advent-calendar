@@ -17,6 +17,12 @@
   width: 50vw;
 }
 
+@media (max-width: 768px) {
+    .portrait {
+        width: 100vw;
+    }
+}
+
 body {
   margin: 0;
   width: 100dvw;
