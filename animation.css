@@ -1,11 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Chewy&family=Unica+One&display=swap');
+
 .container {
   padding: 10vh 0;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .dwarf {
   height: 50vh;
+  width: auto;
 }
 
 body {
@@ -24,4 +28,17 @@ body {
   bottom: 0;
   pointer-events: none;
   z-index: 1000;
+}
+
+button {
+  margin: 5vh 0;
+  padding: 10px 20px;
+  font-family: 'Chewy', system-ui;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #6da7ce;
+  border-radius: 25px;
+  border: none;
 }
