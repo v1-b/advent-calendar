@@ -13,8 +13,8 @@
 }
 
 .portrait {
-  height: 60vh;
-  width: auto;
+  height: auto;
+  width: 50vw;
 }
 
 body {
