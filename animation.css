@@ -13,6 +13,17 @@
   width: auto;
 }
 
+.chibi {
+  max-height: 60vh;
+  width: auto;
+}
+
+@media (max-width: 768px) {
+  .chibi {
+    height: 50vh;
+  }
+}
+
 .portrait {
   height: auto;
   width: 50vw;
@@ -66,7 +77,7 @@ button:hover {
 
 @media (max-width: 768px) {
   button {
-    width: 25vw;
+    width: 30vw;
     height:auto;
   }
 }
