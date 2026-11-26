@@ -20,6 +20,7 @@
 
 @media (max-width: 768px) {
   .portrait {
+    margin: 10vh 0;
     width: 100vw;
   }
 }
